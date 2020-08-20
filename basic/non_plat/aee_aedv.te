@@ -496,7 +496,6 @@ allow aee_aedv logpersistd_logging_prop:file { getattr map open };
 allow aee_aedv lowpan_prop:file { getattr map open };
 allow aee_aedv lpdumpd_prop:file { getattr map open };
 allow aee_aedv meta_connecttype_prop:file { getattr map open };
-allow aee_aedv misc_writer_prop:file { getattr map open };
 allow aee_aedv mmc_prop:file { getattr map open };
 allow aee_aedv mtk_dmc_prop:file { getattr map open };
 allow aee_aedv mtk_nn_option_prop:file { getattr map open };
