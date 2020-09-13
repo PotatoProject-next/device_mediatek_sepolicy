@@ -51,7 +51,6 @@ PPLAgent                                u:object_r:ppl_agent_service:s0
 nfc.st_ext                              u:object_r:nfc_service:s0
 nfc_settings                            u:object_r:nfc_service:s0
 gwsd                                    u:object_r:mtk_gwsd_service:s0
-uce                                     u:object_r:mtk_presence_service:s0
 
 # Trustonic Services
 vendor.trustonic.teeservice.ITeeService    					u:object_r:tee_service:s0

@@ -129,9 +129,6 @@ allow system_app rild:binder { call transfer };
 get_prop(system_app, mtk_subsidylock_prop)
 set_prop(system_app, mtk_subsidylock_prop_connect)
 
-# Purpose : Allow presence service to add AOSP service by ServiceManager
-allow system_app mtk_presence_service:service_manager add;
-
 # Purpose: Presence Service need to communicate with ril.
 # Package Name: com.mediatek.presence
 allow system_app mtk_hal_rild_hwservice:hwservice_manager find;

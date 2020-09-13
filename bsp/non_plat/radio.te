@@ -156,9 +156,6 @@ add_service(radio, mtk_gwsd_service)
 # Purpose : Allow to use PQ in Engineer Mode
 hal_client_domain(radio, hal_pq)
 
-# Purpose : Engineering mode need to get Presence Service
-allow radio mtk_presence_service:service_manager find;
-
 # Operation: Presence Service need to communicate with ril.
 allow rild system_app:binder { transfer call };
 
